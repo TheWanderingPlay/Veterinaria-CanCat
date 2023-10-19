@@ -1,0 +1,298 @@
+    body{
+    background-image: url(./Multimedia/fondo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+/* --------------------------------------- aqui empieza el header ------------------------------------ */
+header{
+    display: flex;
+    justify-content: space-evenly;
+}
+        .logo img{
+        width: auto;
+        height: 20rem;
+        }
+
+    .menu{
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: white;
+        font-family: 'Holyfat';
+
+        border-radius: 1rem 1rem;
+
+        height: 6rem;
+        width: 50rem;
+
+    }
+        .menu div a{
+            color: rgb(0, 224, 0);
+            font-size: 4rem;
+            text-decoration: none;
+            padding: 0 1rem;                
+        }
+
+        .inicio{
+            display: flex;
+            align-items: center;
+        }
+            :hover.inicio{
+                background-color: rgb(0, 224, 0);
+                height:6rem;
+            }
+            .inicio:hover a{
+                color: white;
+            }
+        
+        .objetivo{
+            display: flex;
+            align-items: center;
+        }
+            :hover.objetivo{
+                background-color: rgb(0, 224, 0);
+                height:6rem;
+            }
+            .objetivo:hover a{
+                color: white;
+            }
+        
+        .temas{
+            display: flex;
+            align-items: center;
+        }
+            :hover.temas{
+                background-color: rgb(0, 224, 0);
+                height:6rem;
+            }
+            .temas:hover a{
+                color: white;
+            }
+        
+        .beneficios{
+            display: flex;
+            align-items: center;
+        }
+            :hover.beneficios{
+                background-color: rgb(0, 224, 0);
+                height:6rem;
+            }
+            .beneficios:hover a{
+                color: white;
+            }
+@font-face {
+    font-family: 'Holyfat';
+    src: url(./Multimedia/Holyfat.ttf);
+}
+/* -------------------------------- aqui acaba el header y empieza el main ------------------------------------ */
+
+/* ----------------------------------seccion entrada --------------------- */
+.entrada{
+    display: flex;
+    justify-content: center;
+}
+    .entrada img{
+        width: auto;
+        height: 42rem;
+    }
+    .txt{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+        .txt h1{
+            font-size: 5rem;
+            color:rgb(0, 224, 0);
+            line-height: 4rem
+        }
+        .txt span{
+            font-size: 4.1rem;
+            font-weight: 300;
+        }
+        .txt p{
+            color: rgb(0, 198, 219);
+            font-size: 1.5rem;
+        }
+        .centrar{
+            height: min-content;
+            width: auto;
+            display: flex;
+            justify-content: center;
+        }
+            .BotonVerde{
+                background-color:rgb(0, 224, 0);
+                border-radius: 50%;
+                width: 25rem;
+                height: min-content;
+                padding: 3.5rem 1rem;
+
+                display: flex;
+                justify-content: center;
+            }
+            :hover.BotonVerde{
+                background-color: rgb(0, 198, 219);
+                transition-duration: 0.5;
+                transition: 0.5s;
+            }
+                .BotonVerde img{
+                    height: auto;
+                    width: 23rem;
+                }
+/* -----------------------------seccion objetivo------------------------------ */
+
+    .objetivo1{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin: 5rem 0rem;
+    }
+        .contenido_objetivo{
+        width: 50%;
+        height: auto;
+        }
+            .titulo_objetivo{
+                background-color: rgba(255, 255, 255, 0.368);
+                border-radius: 3rem;
+                width: 100%;
+                padding: 1rem 0rem;
+                height:min-content;
+
+                font-family:'Holyfat';
+                color: rgb(0, 224, 0);
+
+
+                display: flex;
+                justify-content: center;
+            }
+                .titulo_objetivo h3{
+                    font-size: 3.5rem;
+                    margin: 0 0;
+                }
+            
+            .texto_objetivo{
+                background-color: rgba(0, 224, 0, 0.693);
+                color: white;
+                padding: 0.5rem;
+                margin: 1rem 0rem;
+
+                display: flex;
+                justify-content: center;
+                
+
+                text-align: justify;
+            }
+                .texto_objetivo p{
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-align: justify;
+                    width: 90%;
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    line-height: 150%;
+                    word-spacing: 1.4rem;
+                }
+
+        .objetivo1 video{
+            height: auto;
+            width: 30%;
+        }
+/* ------------------------------seccion temas------------------------------- */
+.temas1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 5rem 0rem;
+    flex-direction: row-reverse;
+}
+    .contenido_temas{
+    width: 50%;
+    height: auto;
+    }
+        .titulo_temas{
+            background-color: rgba(255, 255, 255, 0.368);
+            border-radius: 3rem;
+            width: 100%;
+            padding: 1rem 0rem;
+            height:min-content;
+
+            font-family:'Holyfat';
+            color: rgb(0, 224, 0);
+
+
+            display: flex;
+            justify-content: center;
+        }
+            .titulo_temas h3{
+                font-size: 3.5rem;
+                margin: 0 0;
+            }
+        
+        .texto_temas{
+            background-color: rgba(0, 224, 0, 0.693);
+            color: white;
+            padding: 0.5rem;
+            margin: 1rem 0rem;
+
+            display: flex;
+            justify-content: center;
+            
+
+            text-align: justify;
+        }
+            .texto_temas p{
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: justify;
+                width: 90%;
+                font-size: 1.2rem;
+                font-weight: 600;
+                line-height: 180%;
+            }
+
+    .temas1 img{
+        height: auto;
+        width: 30%;
+    }
+
+/* ----------------------------seccion beneficios--------------------- */
+.sec_beneficios{
+    width: 100%;
+    height: min-content;
+    padding: 1rem 0rem;
+}
+    .sec_beneficios h3{
+        text-align: center;
+        font-family: 'Holyfat' ;
+        color: rgb(0, 224, 0) ;
+        font-size: 3.5rem;
+    }
+    .botones{
+        display: flex;
+        justify-content: space-evenly;
+
+        width: 100%;
+        height: min-content;
+    }
+        .botones a img{
+            width: auto;
+            height: 17rem;
+        }
+/* -----------------------------footer------------------------- */
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgba(255, 255, 255, 0.382);
+    padding: 2rem;
+
+}
+    .footer p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        font-weight: 700;
+    }
+    .can{
+        height: 5rem;
+    }
+
+
+
